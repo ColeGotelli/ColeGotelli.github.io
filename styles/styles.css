@@ -1,0 +1,149 @@
+html {
+	box-sizing: border-box;
+	/*font-family: something;*/
+	background-color: #121212;
+	font-size: 1.125rem
+}
+
+body {
+	margin: 0;
+	/*color: #aa69fa; This is the purple color */
+	color: #ffffff;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+section {
+	padding: 2em 1em;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	color: #03dac5;
+}
+
+h2 {
+	color: #aa69fa;
+	font-size: 3rem;
+}
+
+span {
+	color: #03dac5;
+}
+
+#about-me-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	height: 20%;
+	border-radius: 100px;
+	border:3px solid #03dac5;
+}
+
+#git-nofil {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	height: 20%;
+}
+
+#git-nofil:hover {
+	content: url(../images/Cole_Github_Filter.png);
+}
+
+#link-nofil {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	height: 20%;
+}
+
+#link-nofil:hover {
+	content: url(../images/Cole_Github_Filter.png);
+}
+
+li#skill:before {
+	content: '\00BB';
+	margin-right: 10px;
+	color: #03dac5;
+	font-size: 35px;
+	line-height: 70px;
+}
+
+ul#skill-list {
+	width: 25%;
+    margin: auto;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(140px, 300px));
+	overflow-x: hidden;
+	overflow-y: hidden;
+	list-style-type: none;
+	font-size: 35px;
+}
+
+p {
+	margin-left: 6em;
+	margin-right: 6em;
+	margin-bottom: 0.85em;
+	font-size: 1.5rem;
+}
+
+header {
+	padding: 1em 0 2em;
+	font-size: 1.25rem;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	justify-content: space-around;
+}
+
+nav a {
+	display: inline-block;
+	padding: 0.5rem;
+	text-decoration: none;
+	color: #aa69fa;
+}
+
+nav a:hover {
+	color: #03dac5;
+}
+
+footer {
+	padding: 1em 0 2em;
+}
+
+footer ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	justify-content: space-around;
+}
+
+footer a {
+	display: inline-block;
+	padding: 0.5rem;
+	text-decoration: none;
+	color: #aa69fa;
+}
+
+.hero {
+	background-color: #333;
+	background-image: url(../images/GoldenGateBridge.jpg);
+	background-blend-mode: multiply;
+	background-attachment: fixed;
+	background-size: cover;
+	font-size: 3rem;
+	padding: 8vh 1em;
+}
